@@ -1,0 +1,40 @@
+{
+  "name": "errational",
+  "version": "0.0.0",
+  "description": "HTTP server, cause error conditions and freak out often",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/grunt-cafe-mocha/node_modules/mocha/bin/mocha --ui bdd --reporter spec --require should test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tleen/errational.git"
+  },
+  "keywords": [
+    "http",
+    "server",
+    "error",
+    "404",
+    "4xx",
+    "5xx"
+  ],  
+  "author": {
+    "name" : "Tom Leen",
+    "email" : "tl@thomasleen.com",
+    "url" : "http://www.thomasleen.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleen/errational/issues"
+  },
+  "devDependencies" : {
+    "grunt" : "0.4.5",
+    "grunt-cafe-mocha" : "0.1.12",
+    "grunt-contrib-jshint" : "0.10.0",
+    "should" : "4.0.4"
+  },
+  "dependencies" : {
+    "config" : "1.10.0",
+    "http-proxy" : "1.8.1"
+  }
+}
